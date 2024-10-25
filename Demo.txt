@@ -1,0 +1,15 @@
+Connect to your EC2 instance via SSH.
+Update the package index
+Install Git using the following command:
+Verify the installation by checking the version of Git:
+Configure your Git settings with your username and email:
+sudo yum update -y
+
+sudo yum install git -y
+
+git — version
+
+git config — global user.name “Your Name”
+git config — global user.email “your_email@example.com”
+
+You can now use Git on your EC2 instance to manage your source code
